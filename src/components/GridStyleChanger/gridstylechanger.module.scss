@@ -1,0 +1,19 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.grids {
+  @include flexElements(flex, row, center, space-between);
+  width: 6%;
+  .button {
+    background-color: transparent;
+    border: none;
+  }
+  .activeButton {
+    background-color: transparent;
+    border: none;
+    color: rgb(27, 186, 235);
+  }
+  @include mobile {
+    display: none;
+  }
+}

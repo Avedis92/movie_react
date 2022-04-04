@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if ErrorHandler displays as it should be 1`] = `
+<DocumentFragment>
+  <div
+    class="errorContainer"
+  >
+    <h1>
+      Error Detected!
+    </h1>
+  </div>
+</DocumentFragment>
+`;

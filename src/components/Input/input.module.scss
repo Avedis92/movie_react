@@ -1,0 +1,49 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.searchHeader {
+  @include flexElements(flex, row, center, space-between);
+  background-color: rgba(0, 0, 0, 0.486);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  color: White;
+  h1 {
+    margin-left: 5%;
+    cursor: pointer;
+    transition: 500ms;
+    &:hover {
+      transform: scale(105%);
+      color: rgb(0, 195, 255);
+    }
+    @include mobile {
+      margin-left: 0;
+      font-size: 26px;
+    }
+  }
+  input {
+    margin-right: 5%;
+    width: 20%;
+    border-color: white;
+    border-radius: 10px;
+    height: 70%;
+    background-color: transparent;
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    @include mobile {
+      width: 50vw;
+      font-size: 16px;
+    }
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1;
+    font-style: italic;
+    font-size: 18px;
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make a snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="movieInfoButtons"
+  >
+    <button
+      name="moreinfo"
+      type="button"
+    >
+      More Info
+    </button>
+  </div>
+</DocumentFragment>
+`;

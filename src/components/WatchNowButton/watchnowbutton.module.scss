@@ -1,0 +1,18 @@
+@import "../sasscommonmixxins/button.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.watchNowContainer {
+  height: 100%;
+  width: 30%;
+  :nth-child(1) {
+    @include styleButtons(100%, 100%, white, rgb(0, 195, 255), 10px, none);
+    cursor: pointer;
+    transition: 500ms;
+    &:hover {
+      transform: scale(105%);
+    }
+  }
+  @include mobile {
+    width: 40%;
+  }
+}

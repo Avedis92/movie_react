@@ -1,0 +1,43 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.container {
+  background-color: white;
+  width: 100%;
+  .movieItem {
+    height: 80%;
+    img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    .movieInfo {
+      padding-left: 5%;
+      padding-top: 5%;
+      @include flexElements(flex, row, center, space-between);
+      height: max-content;
+      .titleAndGenres {
+        h3 {
+          margin-bottom: 7%;
+        }
+        h4 {
+          display: inline;
+          color: rgb(27, 186, 235);
+        }
+      }
+      .votesAverage {
+        border: 2px solid rgb(27, 186, 235);
+        border-radius: 5px;
+        width: 20%;
+        margin-right: 4%;
+        text-align: center;
+        color: rgb(27, 186, 235);
+        p {
+          margin-top: 2%;
+          margin-bottom: 2%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

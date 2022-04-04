@@ -1,0 +1,14 @@
+export const apiKey = '0600befd930f4be78f3d1123f393affc';
+export const baseUrl = 'https://api.themoviedb.org/3/';
+export const trendingMovieUrl = `${baseUrl}trending/movie/week?api_key=${apiKey}&page=`;
+export const topRatedMovieUrl = `${baseUrl}movie/top_rated?api_key=${apiKey}&page=`;
+export const upcomingMovieUrl = `${baseUrl}movie/upcoming?api_key=${apiKey}&page=`;
+export const movieGenreListUrl = `${baseUrl}genre/movie/list?api_key=${apiKey}`;
+export const searchMovieUrl = `${baseUrl}search/movie?api_key=${apiKey}&query=`;
+export const postPathUrl = 'https://image.tmdb.org/t/p/w500';
+export const defaultBackgroundImage = 'https://media-assets-05.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-10557-netflixa--default--1280.jpg';
+export const pageNotFoundBackgroundImage = 'https://cdn3.vectorstock.com/i/1000x1000/67/12/404-error-page-background-vector-20596712.jpg';
+export const movieVideoUrl = `${baseUrl}/movie/`;
+export const searchMovieByGenreUrl = `${baseUrl}discover/movie?api_key=${apiKey}&with_genres=`;
+export const defaultPageNumber = 1;
+export const defaultMovieType = 'trendings';

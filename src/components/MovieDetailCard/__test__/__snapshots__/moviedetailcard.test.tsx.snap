@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+    style="background-image: url(https://image.tmdb.org/t/p/w500/fCayJrkfRaCRCTh8GqN30f8oyQF.jpg);"
+  >
+    <div
+      class="InnerContainer"
+    >
+      <div
+        class="Infos"
+      >
+        <div
+          class="posterContainer"
+        >
+          <img
+            alt="Fight Club"
+            src="https://image.tmdb.org/t/p/w500/fCayJrkfRaCRCTh8GqN30f8oyQF.jpg"
+          />
+        </div>
+        <div
+          class="movieInfoContainer"
+        >
+          <div
+            class="movieHeaders"
+          >
+            <h1>
+              Fight Club
+            </h1>
+            <h2>
+              How much can you know about yourself if you've never been in a fight?
+            </h2>
+            <div
+              class="movieGenres"
+            >
+              <h2>
+                Drama    
+              </h2>
+            </div>
+            <p>
+              139min
+            </p>
+            <p>
+              1999-10-12
+            </p>
+          </div>
+          <p
+            class="movieOverview"
+          >
+            A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground "fight clubs" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.
+          </p>
+          <div
+            class="trailerWatch"
+          >
+            <div
+              class="watchNowContainer"
+            >
+              <button
+                id="550"
+                name="watchNowButton"
+                type="button"
+              >
+                Watch Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

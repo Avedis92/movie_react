@@ -1,0 +1,17 @@
+@import "../../components/sasscommonmixxins/button.scss";
+@import "../../components/sasscommonmixxins/flex.scss";
+@import "../../components/sasscommonmixxins/mediaqueries.scss";
+.Container {
+  width: 100%;
+  .titleAndGridStyle {
+    @include flexElements(flex, row, center, space-between);
+    margin-right: 5%;
+    margin-left: 5%;
+    h1 {
+      color: rgb(27, 186, 235);
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .InnerContainer {
+    background-color: rgba(0, 0, 0, 0.486);
+    .Infos {
+      @include flexElements(flex, row, center, space-between);
+      padding-top: 10%;
+      padding-left: 5%;
+      padding-bottom: 4%;
+      flex-wrap: wrap;
+      .posterContainer {
+        img {
+          height: 400px;
+          border-radius: 10px;
+          @include mobile {
+            height: 350px;
+          }
+        }
+        @include mobile {
+          margin-left: 18%;
+        }
+      }
+      .movieInfoContainer {
+        width: 75%;
+        .movieHeaders {
+          color: white;
+          p {
+            font-size: 20px;
+            @include mobile {
+              font-size: 16px;
+            }
+          }
+          h1 {
+            margin-bottom: 2%;
+            @include mobile {
+              font-size: 20px;
+            }
+          }
+          h2 {
+            margin-bottom: 2%;
+            @include mobile {
+              font-size: 18px;
+            }
+          }
+          .movieGenres {
+            margin-bottom: 1%;
+            h2 {
+              display: inline;
+              @include mobile {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+        .movieOverview {
+          color: white;
+          font-size: 18px;
+          @include mobile {
+            font-size: 16px;
+            width: 100vw;
+          }
+        }
+        .trailerWatch {
+          width: 10%;
+          height: 50px;
+          :nth-child(1) {
+            width: 100%;
+          }
+          @include mobile {
+            width: 30vw;
+            margin-top: 4%;
+            margin-left: 35vw;
+          }
+        }
+      }
+      @include mobile {
+        padding-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make tests on SearchPage component Make a snapshot test 1`] = `
+<div
+  className="Container"
+>
+  <div
+    className="searchHeader"
+  >
+    <h1
+      onClick={[Function]}
+    >
+      Movies
+    </h1>
+    <input
+      list="movieTitle"
+      name="movieSearch"
+      onKeyPress={[Function]}
+      placeholder="Search"
+      type="text"
+    />
+  </div>
+  <div
+    className="searchElement"
+    style={
+      Object {
+        "backgroundImage": "url(https://cdn3.vectorstock.com/i/1000x1000/67/12/404-error-page-background-vector-20596712.jpg",
+      }
+    }
+  >
+    <div
+      className="searchFooter"
+    />
+  </div>
+</div>
+`;

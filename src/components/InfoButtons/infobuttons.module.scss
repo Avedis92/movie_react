@@ -1,0 +1,26 @@
+@import "../sasscommonmixxins/button.scss";
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.movieInfoButtons {
+  height: 100%;
+  width: 30%;
+  :nth-child(1) {
+    @include styleButtons(
+      100%,
+      100%,
+      white,
+      rgba(0, 0, 0, 0.63),
+      10px,
+      1px solid white
+    );
+    cursor: pointer;
+    transition: 500ms;
+    &:hover {
+      transform: scale(105%);
+    }
+  }
+  @include mobile {
+    width: 40%;
+  }
+}

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="movieDetailsContainer"
+    style="background-image: url(https://image.tmdb.org/t/p/w500/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg);"
+  >
+    <div
+      class="movieDetails"
+    >
+      <div
+        class="closingButton"
+      >
+        <p>
+          X
+        </p>
+      </div>
+      <div
+        class="titleAndVoteAverage"
+      >
+        <div
+          class="titleAndGenre"
+        >
+          <h2>
+            Suicide Squad
+          </h2>
+        </div>
+        <div
+          class="vote"
+        >
+          <p>
+            5.91
+          </p>
+        </div>
+      </div>
+      <p>
+        From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences.
+      </p>
+      <div
+        class="buttonSection"
+      >
+        <div
+          class="watchNowContainer"
+        >
+          <button
+            id="297761"
+            name="watchNowButton"
+            type="button"
+          >
+            Watch Now
+          </button>
+        </div>
+        <div
+          class="movieInfoButtons"
+        >
+          <button
+            name="moreinfo"
+            type="button"
+          >
+            More Info
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

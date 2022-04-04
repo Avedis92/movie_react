@@ -1,0 +1,8 @@
+@mixin styleButtons($w, $h, $color, $bg-color, $br, $border) {
+  width: $w;
+  height: $h;
+  color: $color;
+  background-color: $bg-color;
+  border-radius: $br;
+  border: $border;
+}

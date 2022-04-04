@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make a snapshot test 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="searchHeader"
+  >
+    <h1
+      onClick={[Function]}
+    >
+      Movies
+    </h1>
+    <input
+      list="movieTitle"
+      name="movieSearch"
+      onKeyPress={[Function]}
+      placeholder="Search"
+      type="text"
+    />
+  </div>
+  <div
+    className="loader"
+  >
+    <span />
+    <span />
+    <span />
+  </div>
+  <div
+    className="movieListContainer"
+  >
+    <div
+      className="loader"
+    >
+      <span />
+      <span />
+      <span />
+    </div>
+    <button
+      className="seeMore"
+      onClick={[Function]}
+      type="button"
+    >
+      See More
+    </button>
+  </div>
+</div>
+`;

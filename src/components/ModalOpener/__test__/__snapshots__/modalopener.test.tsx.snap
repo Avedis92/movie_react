@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="modalOpenerContainer"
+    style="background-image: url(https://image.tmdb.org/t/p/w500/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg);"
+  >
+    <div
+      class="infoItem"
+    >
+      <div
+        class="watchNow"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(27, 186, 235); font-size: 10vh;"
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"
+          />
+        </svg>
+        <p>
+          Watch Now
+        </p>
+      </div>
+      <button
+        class="viewInfoButton"
+        type="button"
+      >
+        View Info
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

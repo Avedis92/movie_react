@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make a snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="movieListContainer"
+  >
+    <div
+      class="movieGridsContainer"
+      style="grid-template-columns: repeat(4,1fr);"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="movieItem"
+        >
+          <img
+            alt="Suicide Squad"
+            src="https://image.tmdb.org/t/p/w500/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg"
+          />
+          <div
+            class="movieInfo"
+          >
+            <div
+              class="titleAndGenres"
+            >
+              <h3
+                data-testid="movieTitle"
+              >
+                Suicide Squad
+              </h3>
+            </div>
+            <div
+              class="votesAverage"
+            >
+              <p>
+                5.91
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="seeMore"
+      type="button"
+    >
+      See More
+    </button>
+  </div>
+</DocumentFragment>
+`;

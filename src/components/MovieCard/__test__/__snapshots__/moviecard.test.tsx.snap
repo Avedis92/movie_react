@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make tests on MovieCard component Make a snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="movieItem"
+    >
+      <img
+        alt="Suicide Squad"
+        src="https://image.tmdb.org/t/p/w500/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg"
+      />
+      <div
+        class="movieInfo"
+      >
+        <div
+          class="titleAndGenres"
+        >
+          <h3
+            data-testid="movieTitle"
+          >
+            Suicide Squad
+          </h3>
+        </div>
+        <div
+          class="votesAverage"
+        >
+          <p>
+            5.91
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

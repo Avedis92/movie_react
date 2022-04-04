@@ -1,0 +1,55 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/button.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+.modalOpenerContainer {
+  height: 100%;
+  width: 100%;
+  .infoItem {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.705);
+    background-size: cover;
+    @include flexElements(flex, column, center, space-evenly);
+    .watchNow {
+      color: white;
+      @include flexElements(flex, column, center, space-evenly);
+      width: 70%;
+      height: 40%;
+      text-align: center;
+      margin: auto;
+      :nth-child(1) {
+        cursor: pointer;
+        transition: 500ms;
+        &:hover {
+          transform: scale(102%);
+        }
+      }
+      p {
+        font-size: 3vh;
+      }
+    }
+    .viewInfoButton {
+      @include styleButtons(
+        40%,
+        6vh,
+        white,
+        rgba(0, 0, 0, 0.63),
+        none,
+        1px solid white
+      );
+      margin: auto;
+      transition: 500ms;
+      cursor: pointer;
+      &:hover {
+        transform: scale(105%);
+      }
+    }
+    @include mobile {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @include mobile {
+    width: 100%;
+    height: 500px;
+  }
+}

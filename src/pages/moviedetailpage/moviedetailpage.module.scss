@@ -1,0 +1,17 @@
+@import "../../components/sasscommonmixxins/flex.scss";
+@import "../../components/sasscommonmixxins/mediaqueries.scss";
+
+.pageContainer {
+  position: absolute;
+  background-size: cover;
+  .titleAndGridStyle {
+    @include flexElements(flex, row, center, space-between);
+    margin-right: 5%;
+    margin-left: 5%;
+    @include mobile {
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/button.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.movieDetailsContainer {
+  height: 100%;
+  .movieDetails {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.521);
+    padding-left: 5%;
+    @include flexElements(flex, column, none, space-evenly);
+    .closingButton {
+      border-radius: 50%;
+      height: 4%;
+      width: 8%;
+      text-align: center;
+
+      p {
+        color: white;
+        border-radius: 50%;
+        height: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 500ms;
+        margin: auto;
+
+        &:hover {
+          transform: scale(110%);
+          background-color: red;
+        }
+      }
+    }
+    .titleAndVoteAverage {
+      @include flexElements(flex, row, center, space-between);
+      .titleAndGenre {
+        h2 {
+          color: white;
+          font-weight: bold;
+        }
+        .genre {
+          @include flexElements(flex, row, center, space-between);
+        }
+      }
+      .vote {
+        border: 2px solid rgb(27, 186, 235);
+        width: 15%;
+        margin-right: 4%;
+        border-radius: 5px;
+        font-weight: bold;
+        text-align: center;
+        p {
+          color: rgb(27, 186, 235);
+          margin-top: 2%;
+          margin-bottom: 2%;
+          font-size: 20px;
+        }
+      }
+    }
+    p {
+      color: white;
+    }
+    .buttonSection {
+      height: 8%;
+      @include flexElements(flex, row, none, space-evenly);
+    }
+  }
+  @include mobile {
+    height: 450px;
+  }
+}

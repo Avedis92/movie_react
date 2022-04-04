@@ -1,0 +1,32 @@
+@import "../sasscommonmixxins/flex.scss";
+@import "../sasscommonmixxins/button.scss";
+@import "../sasscommonmixxins/mediaqueries.scss";
+
+.movieListContainer {
+  background-color: rgb(224, 224, 224);
+  .movieGridsContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    gap: 30px;
+    @include mobile {
+      @include flexElements(flex, column, center, space-evenly);
+      flex-wrap: wrap;
+    }
+  }
+  .seeMore {
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    @include styleButtons(10%, 50px, white, rgb(0, 195, 255), 10px, none);
+    transition: 500ms;
+    &:hover {
+      transform: scale(110%);
+    }
+    @include mobile {
+      width: 40vw;
+      margin-left: 30vw;
+    }
+  }
+}
